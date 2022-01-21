@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace PA_1___Getting_Into_CSharp
 {
-    internal class Program
+    internal class Class1
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
