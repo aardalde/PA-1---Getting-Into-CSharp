@@ -1,6 +1,6 @@
-﻿// Name: 
-// Date:
-// File:
+﻿// Name: Aaron Alden
+// Date: 1/22/2022
+// File: Cassowary.cs
 /* Description:
  */
 
@@ -19,15 +19,19 @@ namespace PA_1___Getting_Into_CSharp
         }
         public override void printInfo()
         {
-            // Not implemented 
+            Console.WriteLine("Name: " + getSetName);
+            Console.WriteLine("Age: " + getSetAge);
+            Console.WriteLine("Weight: " + getSetWeight);
         }
         public override void makeNoise()
         {
-            // Not implemented 
+            Console.WriteLine("You call out to " + getSetName + " and suddenly hear " +
+                "an annoying noise off in the distance..." + getSetNoise);
         }
         public override void ageUp()
         {
-            // Not implemented 
+            getSetAge = getSetAge + 1;
+            Console.WriteLine(getSetAge);
         }
     }
 }
