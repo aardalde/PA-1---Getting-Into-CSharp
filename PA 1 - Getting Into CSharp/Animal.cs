@@ -1,7 +1,8 @@
 ﻿// Name: Aaron Alden
 // Date: 1/22/2022
 // File: Animal.cs
-/* Description:
+/* Description: The abstract parent class of this application. This file declares all 
+ * private data members and public functions.
  */
 
 using System;
@@ -19,13 +20,6 @@ namespace PA_1___Getting_Into_CSharp
         int Age;
         string Noise;
         double Weight;
-       public Animal(string name, int age, string noise, double weight)
-        {
-            Name = name;
-            Age = age;
-            Noise = noise;
-            Weight = weight;
-        }
         public string getSetName
         {
             get { return Name; }

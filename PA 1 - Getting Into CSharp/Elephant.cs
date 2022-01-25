@@ -1,7 +1,8 @@
 ﻿// Name: Aaron Alden
 // Date: 1/22/2022
 // File: Elephant.cs
-/* Description:
+/* Description: A concrete child class of Animal. This class implements all public
+ * functions defined in the Animal abstract parent class.
  */
 
 using System;
@@ -14,9 +15,6 @@ namespace PA_1___Getting_Into_CSharp
 {
     public class Elephant : Animal
     {
-        public Elephant(string name, int age, string noise, double weight) : base(" ", 0, " ", 0.0)
-        {
-        }
         public override void printInfo()
         {
             Console.WriteLine("Name: " + getSetName);

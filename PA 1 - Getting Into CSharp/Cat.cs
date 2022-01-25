@@ -1,7 +1,8 @@
 ﻿// Name: Aaron Alden
 // Date: 1/22/2022
 // File: Cat.cs
-/* Description:
+/* Description: A concrete child class of Animal. This class implements all public
+ * functions defined in the Animal abstract parent class.
  */
 
 using System;
@@ -14,9 +15,6 @@ namespace PA_1___Getting_Into_CSharp
 {
     public class Cat : Animal
     {
-        public Cat(string name, int age, string noise, double weight) : base(" ", 0, " ", 0.0)
-        {
-        } 
         public override void printInfo()
         {
             
@@ -32,7 +30,7 @@ namespace PA_1___Getting_Into_CSharp
         public override void ageUp()
         {
             getSetAge = getSetAge + 1;
-            Console.WriteLine(getSetAge);
+            Console.WriteLine("New age: "+ getSetAge);
         }
     }
 }
